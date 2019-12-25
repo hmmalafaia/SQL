@@ -1,0 +1,5 @@
+insert into main_table
+select * from temp_table as rt
+	on conflict (column1,column2,column3)
+	do 
+	nothing;
