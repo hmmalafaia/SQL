@@ -1,0 +1,1 @@
+\copy table_name from program 'cmd /c type input_data.csv' delimiter ',' csv header;
